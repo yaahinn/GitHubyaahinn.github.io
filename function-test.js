@@ -1,5 +1,5 @@
 function dri() {
-  1 + 2
+  console.log(1+2);
 }
 
-dri()
+
