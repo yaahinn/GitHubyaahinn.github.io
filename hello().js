@@ -11,5 +11,5 @@ function helloCircleArea(radius){
 }
 
 function helloRectangleArea(width,height){
-  conole.log(width*height);
+  console.log(width*height);
 }

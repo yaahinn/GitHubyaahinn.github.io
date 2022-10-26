@@ -1,5 +1,4 @@
-let a=10;
-let b=22
+
 
 function logHello() {
   console.log("Hello");
