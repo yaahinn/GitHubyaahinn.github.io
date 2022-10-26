@@ -7,5 +7,9 @@ function helloSomeone(引数1){
 }
 
 function helloCircleArea(radius){
-  console.log(radius()^2/2)
+  console.log(radius*radius*Math.PI);
+}
+
+function helloRectangleArea(width,height){
+  conole.log(width*height);
 }
