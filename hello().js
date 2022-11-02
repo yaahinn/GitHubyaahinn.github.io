@@ -7,9 +7,16 @@ function helloSomeone(引数1){
 }
 
 function helloCircleArea(radius){
-  console.log(radius*radius*Math.PI);
+  return radius*radius*Math.PI;
 }
 
 function helloRectangleArea(width,height){
-  console.log(width*height);
+  return width*height;
 }
+
+function showModal(){
+  console.log("modal");
+  let modal=document.querySelector("#modal");
+  modal.innerHTML="ボタンが押されました";
+}
+

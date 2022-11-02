@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>javascriptのれんしゅう</title>
 </head>
 <body>
-<div>
-  <p>hello</p>
-</div>
-  div{
-  width:300px;
-  padding:10px;
-  border-width:3px;
-  margin:20px;
-  solid blue;
-  }
-  p{
-  width:500px;
-  height:200px;
-  background:orange;
-  }
+
+<button onclick="showModal()">クリックすると文字が表示されるよ</button>
+<div id="modal"></div>
+
+<button onclick="changeRed()">赤</button>>
+<button onclick="changeYellow()">黄色</button>
+<button onclick="changeGreen()">緑</button>
+<div id="modal1">ボタンクリックで背景色が変わるよ</div>
+
+<button onclick="appendCircle()">〇</button>
+<button onclick="appendCross()">×</button>
+<div id="modal2"></div>
+
+<button onclick="plusOne()">+1</button>
+<button onclick="plusFive()">+5</button>
+<button onclick="plusTen()">+10</button>
+<div id="modal3">0</div>
+
+<button onclick="checkNumber()">評価する</button>
+<input type="text" id="num">
+
+<p>
+  隣の客はよく柿食う客だ
+</p>
+<p>
+  <input type="text" id="user_input" size="40">
+  <button onclick="checkUserInput()">確認</button>
+</p>
+
+<div id="answer"></div>
+<script type="text/javascript" src="check.js"></script>
+
+<script type="text/javascript" src="modal().js"></script>
 </body>
 </html>
