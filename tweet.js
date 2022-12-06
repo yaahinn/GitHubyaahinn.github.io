@@ -1,4 +1,4 @@
-let tweet=document.querySelector("#tweets");
+let tweet=document.querySelector("#tweet");
 
 
 function tweetALL(){
